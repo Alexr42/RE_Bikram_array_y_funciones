@@ -33,7 +33,16 @@ const separarPalabras = (separe) => {
 };
 
 //8.- Crea la función repetirString que acepte como argumento un string y un número y devuelva un string que sea el resultado de concatenar el primer string el número dado de veces
-
+const repetirString = (texto, num) => {
+    if (num <= 0){
+        return "";
+    };
+    let concatena = "";
+    for (let i = 0; i < num; i ++){
+        concatena = concatena.concat(texto);
+    };
+    return concatena;
+};
 
 //9.- Crea la función esPrimo que acepte como argumento un número y devuelva true si es primo y false si no lo es
 
