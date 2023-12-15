@@ -9,7 +9,7 @@ let arrayNumeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 let arrayNumerosPares = [0, 2, 4, 6, 8];
 
 //4.- Crear variable de nombre arrayBidimensional declarada con valor array [[0, 1, 2], ['a', 'b', 'c']]
-
+let arrayBidimensional = [[0, 1, 2], ['a', 'b', 'c']];
 
 //FUNCIONES
 //5.- Crea la función suma que acepte como argumento dos números y devuelva el resultado de su suma
