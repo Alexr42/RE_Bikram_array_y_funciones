@@ -13,14 +13,14 @@ let arrayBidimensional = [[0, 1, 2], ['a', 'b', 'c']];
 
 //FUNCIONES
 //5.- Crea la función suma que acepte como argumento dos números y devuelva el resultado de su suma
-const suma = (a, b) =>{
+const suma = (a, b) => {
     return a + b;
 };
 
 //6.- Crea la función potenciacion que acepte como argumento dos números y devuelva el resultado de elevar el primero(a) al segundo(b) (a^b)
 const potenciacion = (a, b) => {
     let potenciar = 1
-    for (let i = 0; i < b; i++){
+    for (let i = 0; i < b; i++) {
         potenciar *= a
     };
     return potenciar;
@@ -34,18 +34,27 @@ const separarPalabras = (separe) => {
 
 //8.- Crea la función repetirString que acepte como argumento un string y un número y devuelva un string que sea el resultado de concatenar el primer string el número dado de veces
 const repetirString = (texto, num) => {
-    if (num <= 0){
+    if (num <= 0) {
         return "";
     };
     let concatena = "";
-    for (let i = 0; i < num; i ++){
+    for (let i = 0; i < num; i++) {
         concatena = concatena.concat(texto);
     };
     return concatena;
 };
 
-//9.- Crea la función esPrimo que acepte como argumento un número y devuelva true si es primo y false si no lo es
+//9.- Crea la función esPrimo que acepte como argumento un número y devuelva true si es primo y false si no lo es.
 
+const esPrimo = (a) => {
+
+    for (let i = 2; i < a; i++) {
+        if (a % 2 === 0) {
+            return false;
+        };
+    };
+    return true;
+};
 
 //MEZCLANDO ARRAYS CON FUNCIONES
 //10.-  Crear la función ordenarArray que acepta como argumento un array de números y devuelva un array ordenado de menor a mayor
