@@ -13,7 +13,9 @@ let arrayBidimensional = [[0, 1, 2], ['a', 'b', 'c']];
 
 //FUNCIONES
 //5.- Crea la función suma que acepte como argumento dos números y devuelva el resultado de su suma
-
+const suma = (a, b) =>{
+    return a + b
+};
 
 //6.- Crea la función potenciacion que acepte como argumento dos números y devuelva el resultado de elevar el primero(a) al segundo(b) (a^b)
 
