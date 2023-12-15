@@ -58,7 +58,13 @@ const esPrimo = (a) => {
 
 //MEZCLANDO ARRAYS CON FUNCIONES
 //10.-  Crear la función ordenarArray que acepta como argumento un array de números y devuelva un array ordenado de menor a mayor
-
+const ordenarArray = (menoraMayor) => {
+    menoraMayor.sort(
+        (a, b) => {
+            return a - b;
+        });
+    return menoraMayor;
+};
 
 //11.- Crear la función obtenerPares que acepta como argumento un array de números y devuelva un array con los elementos pares
 
