@@ -27,7 +27,10 @@ const potenciacion = (a, b) => {
 };
 
 //7.- Crea la función separarPalabras que acepte como argumento un string y devuelva un array de palabras 'hola mundo' => [hola, mundo]
-
+const separarPalabras = (separe) => {
+    let splitString = separe.split(" ");
+    return splitString;
+};
 
 //8.- Crea la función repetirString que acepte como argumento un string y un número y devuelva un string que sea el resultado de concatenar el primer string el número dado de veces
 
