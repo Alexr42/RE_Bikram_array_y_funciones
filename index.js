@@ -14,11 +14,17 @@ let arrayBidimensional = [[0, 1, 2], ['a', 'b', 'c']];
 //FUNCIONES
 //5.- Crea la función suma que acepte como argumento dos números y devuelva el resultado de su suma
 const suma = (a, b) =>{
-    return a + b
+    return a + b;
 };
 
 //6.- Crea la función potenciacion que acepte como argumento dos números y devuelva el resultado de elevar el primero(a) al segundo(b) (a^b)
-
+const potenciacion = (a, b) => {
+    let potenciar = 1
+    for (let i = 0; i < b; i++){
+        potenciar *= a
+    };
+    return potenciar;
+};
 
 //7.- Crea la función separarPalabras que acepte como argumento un string y devuelva un array de palabras 'hola mundo' => [hola, mundo]
 
